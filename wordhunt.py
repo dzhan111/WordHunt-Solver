@@ -41,14 +41,24 @@ class Trie:
 
 
 trie = Trie()
+def makeTrie():
+    with open("wordbank.txt", "r") as file:
+        #first line
+        line = file.readline()
 
-with open("wordbank.txt", "r") as file:
-    # Read the first line
-    line = file.readline()
+        # While there are more lines in the file (line is not an empty string)
+        while line:
+            trie.insert(line.strip())
+            line = file.readline
 
-    # While there are more lines in the file (line is not an empty string)
-    while line:
-        trie.insert(line)
+#dfs method to traverse
+
+
+
+#main
+makeTrie()
+getBoard()
+
 
         
 
