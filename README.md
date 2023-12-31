@@ -1,5 +1,7 @@
 # WordHunt-Solver
-This works pretty well to beat pretty much all normal players. The wordbank isn't exactly the same one that 
+This is a program for outputting all solutions in a given board from the GamePigeon game "Wordhunt".
+This works pretty well to beat pretty much all normal players. 
+The wordbank isn't exactly the same one that 
 GamePigeon uses. It also depends how fast you can swipe
 
 
