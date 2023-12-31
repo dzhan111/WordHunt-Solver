@@ -45,13 +45,12 @@ class Trie:
 trie = Trie()
 ans = []
 def makeTrie():
-    with open("lowercase.txt", "r") as file:
+    with open("real.txt", "r") as file:
         #first line
         line = file.readline()
 
         # While there are more lines in the file (line is not an empty string)
         while line:
-            
             trie.insert(line.strip())  # Strip to remove leading/trailing whitespaces
             line = file.readline()
 
