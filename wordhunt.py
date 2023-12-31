@@ -45,7 +45,7 @@ class Trie:
 trie = Trie()
 ans = []
 def makeTrie():
-    with open("real.txt", "r") as file:
+    with open("wordbank.txt", "r") as file:
         #first line
         line = file.readline()
 
