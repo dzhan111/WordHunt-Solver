@@ -8,6 +8,8 @@ GamePigeon uses. It also depends how fast you can swipe
 create a trie containing all possible words given our board 
 - used 2019 Collins Official Scrabble Wordbank
 https://boardgames.stackexchange.com/questions/38366/latest-collins-scrabble-words-list-in-text-file
+*** not exact wordle wordbank *** wordle kind of weird.
+
 
 DFS from each letter - > see if any path ends in a word from the wordbank
 - if so, add word to a set
@@ -29,7 +31,6 @@ Or
 
 
 
-target runtime: <1 sec
 
 params:
 - 1:20 time
