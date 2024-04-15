@@ -2,7 +2,8 @@
 This is a program for outputting all solutions in a given board from the GamePigeon game "Wordhunt".
 This works pretty well to beat pretty much all normal players. 
 The wordbank isn't exactly the same one that 
-GamePigeon uses. It also depends how fast you can swipe
+GamePigeon uses. It requires pygame to use the visualizer (wordhunt2.py)
+You can use no visualizer (wordhunt.py) if you don't have pygame.
 
 
 create a trie containing all possible words given our board 
